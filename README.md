@@ -40,3 +40,52 @@ D:\Programs\Gym\Gym Git Exercises Solutions>git branch
 * main
 
 D:\Programs\Gym\Gym Git Exercises Solutions>
+
+3. 
+D:\Programs\Gym\Gym Git Exercises Solutions>git add .
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git commit -m "initial commit"
+[main d836ff7] initial commit
+ 1 file changed, 42 insertions(+), 1 deletion(-)
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 686 bytes | 686.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/happydavid226/Gym-Git-Exercises-Solutions
+   0236181..d836ff7  main -> main
+
+D:\Programs\Gym\Gym Git Exercises Solutions>
+
+4. shown above
+
+5. 
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git switch -c dev
+Switched to a new branch 'dev'
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git switch -c test
+Switched to a new branch 'test'
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git checkout dev
+M       README.md
+Switched to branch 'dev'
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git branch
+* dev
+  main
+  test
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git branch -d test
+Deleted branch test (was d836ff7).
+
+D:\Programs\Gym\Gym Git Exercises Solutions>git branch
+* dev
+  main
+
+D:\Programs\Gym\Gym Git Exercises Solutions>
+
+# Exercise 2
