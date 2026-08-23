@@ -89,3 +89,19 @@ D:\Programs\Gym\Gym Git Exercises Solutions>git branch
 D:\Programs\Gym\Gym Git Exercises Solutions>
 
 # Exercise 2
+git add home.html
+git stash
+git add about.html
+git stash
+git add team.html
+git stash
+git stash pop stash@{1}
+git commit -m "added home and about pages"
+git push
+git stash pop
+move team.html ../
+cls
+doskey /history
+
+D:\Programs\Gym\Gym Git Exercises Solutions>
+
